@@ -1,0 +1,4 @@
+<script>
+var date = new Date()
+document.write("Неделя: " + (Math.floor((date - new Date(2017, 9-1, 18)) / 1000 / 3600 / 24 / 7) % 2 == 0 ? "нечётная (верхняя)" : "чётная (нижняя)"))
+</script>
